@@ -5,7 +5,7 @@ console.log('Strings')
 // Exercise 2-a
 
 var weatherToday = 'today was a sunny and hot day.';
-console.log('En mayúscula: ' + weatherToday.toUpperCase());
+console.log('In capital letters: ' + weatherToday.toUpperCase());
 
 // Exercise 2-b
 
@@ -16,8 +16,8 @@ console.log(example);
 // Exercise 2-c
 
 var hollidays = 'Nahuel travels every year to Mar del Plata.';
-var lastLetters = hollidays.substring(hollidays.length -3, hollidays.length);
-console.log('Last letters: ' + lastLetters);
+var lastCharacters = hollidays.substring(hollidays.length -3, hollidays.length);
+console.log('Last three characters: ' + lastCharacters);
 
 // Exercise 2-d
 
@@ -31,7 +31,7 @@ console.log(modifiedWelcome);
 
 var song = "Talk to me softly, there's something in your eyes.";
 var firstBlankSpace = song.indexOf(' ');
-console.log(firstBlankSpace);
+console.log('First black space: ' + firstBlankSpace);
 
 // Exercise 2-f
 

@@ -11,7 +11,7 @@ console.log('Sum of ages: ' + sumOfAges);
 
 // Exercise 1-b
 
-var users = 'Cristian and Rodrigo';
+var users = 'Cristian and Rodrigo ';
 var action = 'play a tennis match.';
 var sent = users + action; 
 console.log(sent);
